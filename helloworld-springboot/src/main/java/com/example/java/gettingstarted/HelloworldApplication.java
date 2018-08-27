@@ -29,7 +29,7 @@ import java.util.concurrent.atomic.AtomicLong;
 public class HelloworldApplication {
   @RequestMapping("/")
   public String home() {
-    return "Hi Janko, I'll see you on Tuesday, Janko. ";
+    return "Hey Dad, I'll see you on Tuesday, Janko. ";
   }
 
   private final AtomicLong counter = new AtomicLong(); 
